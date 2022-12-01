@@ -108,6 +108,7 @@ function prompt_sorin_setup {
   RPROMPT+=${show_return}
   RPROMPT+='%f)${VIM:+" %B%F{6}V%f%b"}'
   PROMPT+='${_prompt_sorin_git}'
+  PROMPT+=$'\n$ '
   SPROMPT='zsh: correct %F{1}%R%f to %F{2}%r%f [nyae]? '
 }
 
