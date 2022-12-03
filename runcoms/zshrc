@@ -1,3 +1,5 @@
+alias ipy3=bpython
+alias sshh="ssh localhost -p 2244"
 #
 # Executes commands at the start of an interactive session.
 #
